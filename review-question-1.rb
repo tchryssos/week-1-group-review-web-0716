@@ -1,4 +1,31 @@
-## QUESTION 1
+#Question 1
+#pokemon["abilities"]["ability"]["url"]
+
+#Question 2
+#     pokemon_array.select do |pokemon|
+#         pokemon.each do |attribute, value|
+#             if attribute == :base_experience && value > 40
+#                 puts pokemon[:name]
+#             end
+#         end
+#     end
+
+#Question 3
+#     pokemon_array.collect do |pokemon|
+#         pokemon.each do |attribute, value|
+#             if attribute == :base_experience && value > 40
+#                 puts pokemon[:name]
+#             end
+#         end
+#     end
+
+#Question 4
+# pokemon_array.collect do |pokemon|
+#   pokemon[:name]
+# end
+
+#Question 5
+ #puts true if pokemon_array.select{|pokemon| pokemon[:weight]>60}
 
 pokemon = [
   {
@@ -20,6 +47,35 @@ pokemon = [
         }
     ]
 },
+
+#Question 1
+#pokemon["abilities"]["ability"]["url"]
+
+#Question 2
+#     pokemon_array.select do |pokemon|
+#         pokemon.each do |attribute, value|
+#             if attribute == :base_experience && value > 40
+#                 puts pokemon[:name]
+#             end
+#         end
+#     end
+
+#Question 3
+#     pokemon_array.collect do |pokemon|
+#         pokemon.each do |attribute, value|
+#             if attribute == :base_experience && value > 40
+#                 puts pokemon[:name]
+#             end
+#         end
+#     end
+
+#Question 4
+# pokemon_array.collect do |pokemon|
+#   pokemon[:name]
+# end
+
+#Question 5
+ #puts true if pokemon_array.select{|pokemon| pokemon[:weight]>60}
 {
   "id": 3,
   "name": "venesaur",
